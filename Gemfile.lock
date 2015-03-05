@@ -67,6 +67,7 @@ GEM
     mime-types (2.4.3)
     minitest (5.5.1)
     multi_json (1.11.0)
+    pg (0.18.1)
     rack (1.5.2)
     rack-contrib (1.2.0)
       rack (>= 0.9.1)
@@ -140,6 +141,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   meta_request
+  pg
   rails (= 4.1.8)
   rails_12factor
   sass-rails (~> 4.0.3)
