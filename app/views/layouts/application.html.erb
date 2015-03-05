@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wdi6hk</title>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="<%= is_active?(project1_path)%>"><%= link_to "Project 1", project1_path %></li>
+            <li role="presentation" class="<%= is_active?(project2_path)%>"><%= link_to "Project 2", project2_path %></li>
+            <li role="presentation" class="<%= is_active?(project3_path)%>"><%= link_to "Project 3", project3_path %></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">GA - WDI6</h3>
+      </div>
+
+      <%= yield %>
+
+      <footer class="footer">
+        <p>&copy; General Assemb.ly 2015</p>
+      </footer>
+
+    </div>
+
+
+
+  </body>
+</html>
