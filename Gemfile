@@ -4,9 +4,10 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use postgresql as the database for Production
-gem 'pg', group: :production
+# gem 'pg', group: :production
 # Use sqlite3 as the database for Development
-gem 'sqlite3', group: :development
+# gem 'sqlite3', group: :development
+gem 'sqlite3'
 # Bootstrap
 gem 'bootstrap-sass', '~> 3.3.0'
 # Use SCSS for stylesheets
